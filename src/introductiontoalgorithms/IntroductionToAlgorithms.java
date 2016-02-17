@@ -5,8 +5,10 @@
  */
 package introductiontoalgorithms;
 
+import introductiontoalgorithms.linkedlist.LinkedListAlgorithms;
 import introductiontoalgorithms.matrix.MatrixAlgorithms;
 import introductiontoalgorithms.stringarrays.StringArraysAlgorithms;
+import introductiontoalgorithms.tree.BinaryTreeAlgorithm;
 
 /**
  *
@@ -21,7 +23,9 @@ public class IntroductionToAlgorithms {
         // TODO code application logic here
 
 //        StringArraysAlgorithms.testAlgorithms();
-        MatrixAlgorithms.testMatrixs();
+//        MatrixAlgorithms.testMatrixs();
+//        LinkedListAlgorithms.testLinkedList();
+        BinaryTreeAlgorithm.testBT();
     }
 
 }
